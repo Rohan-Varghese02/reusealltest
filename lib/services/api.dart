@@ -5,7 +5,7 @@ import 'package:latlong2/latlong.dart';
 
 Future<List<LatLng>> getRoute(LatLng start, LatLng end) async {
   const String apiKey =
-      "key";
+      "";
   final String url =
       "https://api.openrouteservice.org/v2/directions/driving-car?api_key=$apiKey&start=${start.longitude},${start.latitude}&end=${end.longitude},${end.latitude}";
 
